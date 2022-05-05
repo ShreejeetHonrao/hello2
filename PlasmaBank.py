@@ -312,8 +312,7 @@ def dispatch(ch):
 # Global
 while(1):
 	tmp = sp.call('clear',shell=True)
-	user = input("Username: ")
-	password = getpass("Password: ")
+	
 
 	try:
 		con = pymysql.connect(host='localhost',
